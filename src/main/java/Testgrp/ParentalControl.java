@@ -25,7 +25,7 @@ public class ParentalControl
         }
         else
         {
-            return "You can't watch this movie";
+            return "You can't watch this movie.......";
         }
 
     }
