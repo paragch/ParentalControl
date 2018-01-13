@@ -35,9 +35,10 @@ public class ParentalControlTest {
     @Test
     public void testgetParentalControl()
     {
-       // assertEquals(pc.getParentalControl(movieName,clientParentalControl),"You have permission for this movie");
+        assertEquals(pc.getParentalControl(movieName,clientParentalControl),"You have permission for this movie");
         //assertEquals(pc.getParentalControl(movieName1,clientParentalControl),"You can't watch this movie");
         //assertNotEquals(pc.getParentalControl(movieName,clientParentalControl),"You can't watch this movie");
+
     }
 
 
